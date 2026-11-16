@@ -24,7 +24,7 @@ void show(int arr[], int n) {
 
 
 }
-int maxkm(int *arrptr, size_t n; int k, int m) {
+int maxkm(int *arrptr, size_t n, int k, int m) {
     if((k < 0) || (m >= n) || (k > n) || (m < 0) || (k > m)) {
         return -1;
     }
