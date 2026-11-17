@@ -12,7 +12,7 @@ void add(int arr[], int n) {
     int i;
     for(int k = 0; k < n; k++) {
         printf("введите число: ");
-        while(scanf("%d", &i)==1) {
+        if(scanf("%d", &i)==1) {
             arr[k] = i;
         }
     }
